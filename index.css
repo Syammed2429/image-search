@@ -1,0 +1,141 @@
+body,
+html {
+  margin: 0%;
+  background: #2e3035;
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+/* Header starts */
+
+header {
+  background: #171544;
+  height: 200px;
+  width: 100%;
+}
+.navbar {
+  padding-top: 20px;
+}
+.logo > img {
+  width: 20%;
+  margin-left: 10px;
+  background: transparent;
+}
+
+.flex {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  color: #aed8ea;
+  align-items: center;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8%;
+  color: #6e6c8a;
+}
+
+.new-post_btn {
+  padding: 5px 10px;
+  position: relative;
+  right: 14%;
+  background: #33be7d;
+  display: flex;
+  gap: 10px;
+  color: #ffff;
+  border-radius: 3px;
+  height: 28%;
+  /* margin-right: 20%; */
+}
+.search-bar {
+  margin-left: 9.5%;
+  width: 28%;
+  height: 35px;
+  background: #454469;
+  color: grey;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.search-icon {
+  color: #ffff;
+  position: relative;
+  right: 30px;
+  top: 5px;
+}
+
+.right-side_btns {
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+.right-side_btns > span {
+  color: #ffff;
+}
+.right-side_btns button {
+  width: 97px;
+  height: 35px;
+  color: #ffff;
+  border: none;
+  font-size: 14px;
+}
+
+.right-side_btns button:nth-last-child(1) {
+  background: #1bb76e;
+}
+.right-side_btns button:nth-last-child(2) {
+  background: #161541;
+}
+.right-side_btns button:nth-last-child(3) {
+  background: #6432f9;
+}
+
+.images > img {
+  width: 10%;
+}
+
+#search-data {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 5px 0px;
+  z-index: 5;
+  width: 600px;
+  height: 200px;
+  overflow: auto;
+  color: white;
+  margin-top: 1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/* search results scrollbar style start */
+
+#search-data::-webkit-scrollbar {
+  width: 5px;
+}
+#search-data::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.altDesc {
+  align-self: center;
+}
+
+.images > .imageDiv {
+  display: flex;
+  width: 15%;
+  margin: auto;
+}
+
+#search-data:hover {
+  cursor: pointer;
+}
