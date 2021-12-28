@@ -1,9 +1,9 @@
-## Infinity Scrolling
+## Search Images and Infinity Scrolling
 
 It's a simple web application to search images.
 
 <h2 align="center">
-  <a href="https://image-search-gules.vercel.app/" target="_blank">Infinity Scrolling</a>
+  <a href="https://image-search-gules.vercel.app/" target="_blank">Search Images and Infinity Scrolling</a>
 </h2>
 
 <p align="center">
