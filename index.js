@@ -5,7 +5,7 @@ let timerId;
 let imageDiv;
 
 const getImages = async () => {
-    const response = await fetch(`https://api.unsplash.com/photos/?page=1&per_page=30&client_id=NdUSvWu8zhmeM_CrzC1PRJh6TrXED0twsk7eP4YyCGk`);
+    const response = await fetch(process.env.API);
     const results = await response.json();
     imagesData = results
 
@@ -18,7 +18,7 @@ const getImages = async () => {
 }
 
 const getSearchResults = async (query) => {
-    const response = await fetch(`https://api.unsplash.com/search/photos?page=1&per_page=1000&query=${query}&client_id=NdUSvWu8zhmeM_CrzC1PRJh6TrXED0twsk7eP4YyCGk`);
+    const response = await fetch(process.env.SEARCH_IMAGE);
     const results = await response.json();
     return results.results
 

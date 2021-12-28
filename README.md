@@ -1,13 +1,13 @@
 ## Infinity Scrolling
 
-It's a simple web application of infinity scrolling.
+It's a simple web application to search images.
 
 <h2 align="center">
-  <a href="https://infinity-scrolling.vercel.app" target="_blank">Infinity Scrolling</a>
+  <a href="https://image-search-gules.vercel.app/" target="_blank">Infinity Scrolling</a>
 </h2>
 
 <p align="center">
-  Sample Desktop Application 👇
+  Sample Desktop Application for Infinity Scrolling 👇 
 </p>
 
 <p align="center">Before
@@ -16,6 +16,18 @@ It's a simple web application of infinity scrolling.
 
 <p align="center">After
 <img src="./after.png">
+</p>
+
+<p align="center">
+  Sample Desktop Application for searching the image 👇 
+</p>
+
+<p align="center">Search Bar
+<img src="./search.png">
+</p>
+
+<p align="center">Serached Image
+<img src="./search2.png">
 </p>
 
 ## Built With
